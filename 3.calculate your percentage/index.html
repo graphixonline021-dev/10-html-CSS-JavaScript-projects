@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calculate your marks</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Marks Calculator</h1>
+    
+    <div class="input-group">
+      <label for="web">English:</label>
+      <input type="number" id="web" placeholder="Enter marks (0-100)" min="0" max="100">
+    </div>
+
+    <div class="input-group">
+      <label for="maths">Mathematics:</label>
+      <input type="number" id="maths" placeholder="Enter marks (0-100)" min="0" max="100">
+    </div>
+
+    <div class="input-group">
+      <label for="comp">Computer Science:</label>
+      <input type="number" id="comp" placeholder="Enter marks (0-100)" min="0" max="100">
+    </div>
+
+    <div class="input-group">
+      <label for="phy">Physics:</label>
+      <input type="number" id="phy" placeholder="Enter marks (0-100)" min="0" max="100">
+    </div>
+
+    <button id="calculate-btn">Calculate Grade</button>
+
+    <div id="result" class="result-box hidden"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
