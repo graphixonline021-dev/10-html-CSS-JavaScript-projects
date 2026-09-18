@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile Navigation Menu</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="phone-container">
+    
+    <div class="content active" id="home">
+      <h2>Home Screen</h2>
+      <p>Welcome to your mobile application dashboard.</p>
+    </div>
+
+    <div class="content" id="work">
+      <h2>Work Screen</h2>
+      <p>Check your tasks, projects, and upcoming deadlines here.</p>
+    </div>
+
+    <div class="content" id="blog">
+      <h2>Blog Screen</h2>
+      <p>Read the latest articles, updates, and community news.</p>
+    </div>
+
+    <div class="content" id="about">
+      <h2>About Screen</h2>
+      <p>Learn more about our team, mission, and application details.</p>
+    </div>
+
+
+    <nav>
+      <ul>
+        <li class="nav-item active" data-target="home">
+          <i class="fa-solid fa-house"></i>
+          <span>Home</span>
+        </li>
+        <li class="nav-item" data-target="work">
+          <i class="fa-solid fa-briefcase"></i>
+          <span>Work</span>
+        </li>
+        <li class="nav-item" data-target="blog">
+          <i class="fa-solid fa-book-open"></i>
+          <span>Blog</span>
+        </li>
+        <li class="nav-item" data-target="about">
+          <i class="fa-solid fa-user"></i>
+          <span>About</span>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
